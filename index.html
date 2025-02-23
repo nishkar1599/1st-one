@@ -9,5 +9,29 @@
 <body>
     welcome to the 1st one
     <script src="script.js"></script>
+    <form action="submit.php" method="POST">
+        <label>Name: <input type="text" name="name"></label><br>
+        <label>Email: <input type="email" name="email"></label><br>
+        
+        <label>Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </label><br>
+    
+        <label>Hobbies:
+            <input type="checkbox" name="hobby" value="reading"> Reading
+            <input type="checkbox" name="hobby" value="sports"> Sports
+        </label><br>
+    
+        <label>Country:
+            <select name="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+            </select>
+        </label><br>
+    
+        <input type="submit" value="Submit">
+    </form>
+    
 </body>
 </html>

@@ -1,1 +1,1 @@
-alert("waah waah")
+alert("namaskar")
